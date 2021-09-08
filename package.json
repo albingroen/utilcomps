@@ -1,6 +1,6 @@
 {
 	"name": "utilui",
-	"version": "0.0.2",
+	"version": "1.0.0",
 	"description": "Utilitarian component library for Svelte",
 	"license": "MIT",
 	"author": "albingroen",
