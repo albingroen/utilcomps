@@ -1,0 +1,52 @@
+{
+  "name": "utildesign",
+  "version": "0.0.2",
+  "description": "Utilitarian component library for Svelte",
+  "license": "MIT",
+  "author": "albingroen",
+  "devDependencies": {
+    "@sveltejs/kit": "next",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-svelte3": "^3.2.0",
+    "prettier": "~2.2.1",
+    "prettier-plugin-svelte": "^2.2.0",
+    "svelte": "^3.34.0",
+    "svelte-check": "^2.0.0",
+    "svelte-preprocess": "^4.0.0",
+    "tslib": "^2.0.0",
+    "typescript": "^4.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@martinse/svelte-heroicons": "^0.1.4",
+    "svelte2tsx": "^0.4.5",
+    "twind": "^0.16.16"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./Box.svelte": "./Box.svelte",
+    "./Button.svelte": "./Button.svelte",
+    "./ButtonGroup.svelte": "./ButtonGroup.svelte",
+    "./Checkbox.svelte": "./Checkbox.svelte",
+    "./Content.svelte": "./Content.svelte",
+    "./Divider.svelte": "./Divider.svelte",
+    "./Error.svelte": "./Error.svelte",
+    "./Modal.svelte": "./Modal.svelte",
+    "./Panel.svelte": "./Panel.svelte",
+    "./PanelContent.svelte": "./PanelContent.svelte",
+    "./Select.svelte": "./Select.svelte",
+    "./Spinner.svelte": "./Spinner.svelte",
+    "./Stack.svelte": "./Stack.svelte",
+    "./Tab.svelte": "./Tab.svelte",
+    "./Table.svelte": "./Table.svelte",
+    "./Tabs.svelte": "./Tabs.svelte",
+    "./Text.svelte": "./Text.svelte",
+    "./TextInput.svelte": "./TextInput.svelte",
+    "./classNames": "./classNames.js",
+    ".": "./index.js",
+    "./utils": "./utils.js"
+  }
+}
