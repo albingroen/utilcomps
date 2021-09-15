@@ -4,6 +4,10 @@
 
 ![Version badge](https://img.shields.io/npm/v/utilcomps?style=social)
 
+![License badge](https://img.shields.io/npm/l/utilcomps?style=social)
+
+![Commit activity](https://img.shields.io/github/commit-activity/m/albingroen/utilcomps?style=social)
+
 ## Table of Contents
 
 - [Title](#utility-components)
