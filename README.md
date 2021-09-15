@@ -2,11 +2,11 @@
 
 <p>
 
-<a src="https://www.npmjs.com/package/utilcomps"><img src="https://img.shields.io/npm/v/utilcomps" /></a>
+<a href="https://www.npmjs.com/package/utilcomps"><img src="https://img.shields.io/npm/v/utilcomps" /></a>
 
 <a href="https://github.com/albingroen/utilcomps/blob/3e612b94f67c264c31bd48fe66f350e1ad1d8c82/package.json#L5"><img src="https://img.shields.io/npm/l/utilcomps" /></a>
 
-<a src="https://github.com/albingroen/utilcomps/commits/main"><img src="https://img.shields.io/github/commit-activity/m/albingroen/utilcomps" /></a>
+<a href="https://github.com/albingroen/utilcomps/commits/main"><img src="https://img.shields.io/github/commit-activity/m/albingroen/utilcomps" /></a>
 
 </p>
 
