@@ -1,16 +1,16 @@
 # utility components
 
-> Utilitarian component library written in Svelte, for Svelte
-
 <p>
 
-<img src="https://img.shields.io/npm/v/utilcomps?style=social" />
+<img src="https://img.shields.io/npm/v/utilcomps?style=plastic" />
 
-<img src="https://img.shields.io/npm/l/utilcomps?style=social" />
+<img src="https://img.shields.io/npm/l/utilcomps?style=plastic" />
 
-<img src="https://img.shields.io/github/commit-activity/m/albingroen/utilcomps?style=social" />
+<img src="https://img.shields.io/github/commit-activity/m/albingroen/utilcomps?style=plastic" />
 
 </p>
+
+> Utilitarian component library written in Svelte, for Svelte
 
 ## Table of Contents
 
