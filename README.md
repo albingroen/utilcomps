@@ -2,11 +2,11 @@
 
 <p>
 
-<img src="https://img.shields.io/npm/v/utilcomps?style=plastic" />
+<img src="https://img.shields.io/npm/v/utilcomps" />
 
-<img src="https://img.shields.io/npm/l/utilcomps?style=plastic" />
+<img src="https://img.shields.io/npm/l/utilcomps" />
 
-<img src="https://img.shields.io/github/commit-activity/m/albingroen/utilcomps?style=plastic" />
+<img src="https://img.shields.io/github/commit-activity/m/albingroen/utilcomps" />
 
 </p>
 
