@@ -2,7 +2,7 @@
 
 > Utilitarian component library written in Svelte, for Svelte
 
-<p align="center">
+<p>
 
 <img src="https://img.shields.io/npm/v/utilcomps?style=social" />
 
