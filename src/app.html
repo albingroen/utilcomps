@@ -7,6 +7,32 @@
 		%svelte.head%
 	</head>
 	<body>
+		<style>
+			@import url('https://rsms.me/inter/inter.css');
+
+			* {
+				box-sizing: border-box;
+				padding: 0;
+				margin: 0;
+			}
+
+			html {
+				background-color: #323232;
+			}
+
+			body {
+				min-height: 100vh;
+			}
+
+			.candidates-table-container {
+				height: calc(100% - 46px);
+			}
+
+			.companies-table-container {
+				height: calc(100% - 46px);
+			}
+		</style>
+
 		<div id="svelte">%svelte.body%</div>
 	</body>
 </html>
