@@ -41,8 +41,8 @@ Set up Tailwind ([twind](https://twind.dev) for example) in a top level file
 
 ```javascript
 <script>
-  import {tailwindConfig} from 'utilcomps'
-  import {setup} from 'twind'
+  import { tailwindConfig } from 'utilcomps'
+  import { setup } from 'twind'
 
   setup(tailwindConfig)
 </script>
