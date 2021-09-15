@@ -10,7 +10,9 @@ const config = {
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
-    adapter: node()
+		adapter: node({
+			out: 'public'
+		})
 	}
 };
 
