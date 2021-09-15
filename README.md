@@ -2,11 +2,11 @@
 
 <p>
 
-<img src="https://img.shields.io/npm/v/utilcomps" />
+<a src="https://www.npmjs.com/package/utilcomps"><img src="https://img.shields.io/npm/v/utilcomps" /></a>
 
 <img src="https://img.shields.io/npm/l/utilcomps" />
 
-<img src="https://img.shields.io/github/commit-activity/m/albingroen/utilcomps" />
+<a src="https://github.com/albingroen/utilcomps/commits/main"><img src="https://img.shields.io/github/commit-activity/m/albingroen/utilcomps" /></a>
 
 </p>
 
