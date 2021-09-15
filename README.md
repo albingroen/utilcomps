@@ -4,13 +4,12 @@ Utilitarian component library for Svelte
 
 ## Table of Contents
 
-- [Title]
-- [Tagline]
-- [About]
-- [Usage]
-  - [Installation]
-  - [Tailwind configuration]
-- [Components]
+- [Title](#utility-components)
+- [About](#about)
+- [Usage](#usage)
+  - [Installation](#installation)
+  - [Tailwind configuration](#tailwind-configuration)
+- [Components](#components)
 
 ## About
 
