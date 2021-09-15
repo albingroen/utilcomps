@@ -60,21 +60,4 @@ Import in script tag and use in body
 
 ## Components
 
-- Box
-- Button
-- ButtonGroup
-- Checkbox
-- Content
-- Divider
-- Error
-- Modal
-- Panel
-- PanelContent
-- Select
-- Spinner
-- Stack
-- Tab
-- Table
-- Tabs
-- Text
-- TextInput
+![https://utilcomps.vercel.app](https://utilcomps.vercel.app)
