@@ -1,16 +1,17 @@
 # utility components
 
-Utilitarian component library for Svelte
+> Utilitarian component library written in Svelte, for Svelte
+
+![Version badge](https://img.shields.io/npm/v/utilcomps?style=social)
 
 ## Table of Contents
 
-- [Title]
-- [Tagline]
-- [About]
-- [Usage]
-  - [Installation]
-  - [Tailwind configuration]
-- [Components]
+- [Title](#utility-components)
+- [About](#about)
+- [Usage](#usage)
+  - [Installation](#installation)
+  - [Tailwind configuration](#tailwind-configuration)
+- [Components](#components)
 
 ## About
 
