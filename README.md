@@ -2,13 +2,13 @@
 
 > Utilitarian component library written in Svelte, for Svelte
 
-<p>
+<p align="center">
 
-![Version badge](https://img.shields.io/npm/v/utilcomps?style=social)
+<img src="https://img.shields.io/npm/v/utilcomps?style=social" />
 
-![License badge](https://img.shields.io/npm/l/utilcomps?style=social)
+<img src="https://img.shields.io/npm/l/utilcomps?style=social" />
 
-![Commit activity](https://img.shields.io/github/commit-activity/m/albingroen/utilcomps?style=social)
+<img src="https://img.shields.io/github/commit-activity/m/albingroen/utilcomps?style=social" />
 
 </p>
 
