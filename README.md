@@ -16,6 +16,7 @@
 - [About](#about)
 - [Installation](#installation)
 - [Tailwind configuration](#tailwind-configuration)
+- [Global styling](#global-styling)
 - [Usage](#usage)
 - [Components](#components)
 
