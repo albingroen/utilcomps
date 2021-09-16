@@ -1,3 +1,5 @@
+![Banner](https://repository-images.githubusercontent.com/404505274/fb126317-3494-4669-a500-4475a9ef80da)
+
 # utility components
 
 <p>
@@ -31,7 +33,9 @@ and the [Adobe Suite](https://www.adobe.com).
 Installaing utilcomps is very easy. Simple install it with your favorite
 JavaScript package manager.
 
-    yarn add utilcomps # or npm install utilcomps
+```sh
+yarn add utilcomps # or npm install utilcomps
+```
 
 ## Tailwind configuration
 
@@ -39,14 +43,17 @@ TailwindCSS is the styling foundation for utilcomps. In order to get all
 correct styles, we provide a Tailwind configuration object, that you can use to
 configure your local version of TailwindCSS.
 
-    yarn add twind
+```sh
+yarn add twind
+```
 
 Set up Tailwind ([twind](https://twind.dev) for example) in a top level file
 
-```
+```svelte
 <script>
-	import {tailwindConfig} from 'utilcomps'
-  import {setup} from 'twind'
+  import { tailwindConfig } from 'utilcomps'
+  import { setup } from 'twind'
+  
   setup(tailwindConfig)
 </script>
 ```
@@ -57,7 +64,7 @@ Using utilcomps components is also very easy. Simple import a component of your
 choce from the utilcomps library inside of a script tag, and use it like any
 other Svelte component.
 
-```
+```svelte
 <script>
   import { Button } from 'utilcomps'
 </script>
