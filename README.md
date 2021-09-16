@@ -35,7 +35,7 @@ Installaing utilcomps is very easy. Simple install it with your favorite
 JavaScript package manager.
 
 ```sh
-yarn add utilcomps # or npm install utilcomps
+npm install utilcomps
 ```
 
 ## Tailwind configuration
@@ -45,7 +45,7 @@ correct styles, we provide a Tailwind configuration object, that you can use to
 configure your local version of TailwindCSS.
 
 ```sh
-yarn add twind
+npm install twind
 ```
 
 Set up Tailwind ([twind](https://twind.dev) for example) in a top level file
@@ -70,13 +70,13 @@ we highly recommend you use it as well.
 @import url('https://rsms.me/inter/inter.css');
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 html {
-  background-color: #323232;
+	background-color: #323232;
 }
 ```
 
