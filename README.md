@@ -1,5 +1,3 @@
-![Banner](https://repository-images.githubusercontent.com/404505274/fb126317-3494-4669-a500-4475a9ef80da)
-
 # utility components
 
 <p>
