@@ -12,9 +12,9 @@
 
 - [Title](#utility-components)
 - [About](#about)
+- [Installation](#installation)
+- [Tailwind configuration](#tailwind-configuration)
 - [Usage](#usage)
-  - [Installation](#installation)
-  - [Tailwind configuration](#tailwind-configuration)
 - [Components](#components)
 
 ## About
@@ -26,19 +26,14 @@ Inspired by classic software like [Cinema
 4D](https://www.maxon.net/en/cinema-4d), [Blender](https://www.blender.org),
 and the [Adobe Suite](https://www.adobe.com).
 
-## Usage
+## Installation
 
-Utilcomps is to be used inside of Svelte. It can be used either with a bare
-Svelte project, or SvelteKit.
-
-### Installation
-
-Install utilcomps is very easy. Simple install it with your favorite JavaScript
-package manager.
+Installaing utilcomps is very easy. Simple install it with your favorite
+JavaScript package manager.
 
     yarn add utilcomps # or npm install utilcomps
 
-### Tailwind configuration
+## Tailwind configuration
 
 TailwindCSS is the styling foundation for utilcomps. In order to get all
 correct styles, we provide a Tailwind configuration object, that you can use to
@@ -56,7 +51,7 @@ Set up Tailwind ([twind](https://twind.dev) for example) in a top level file
 </script>
 ```
 
-### Using components
+## Usage
 
 Using utilcomps components is also very easy. Simple import a component of your
 choce from the utilcomps library inside of a script tag, and use it like any
