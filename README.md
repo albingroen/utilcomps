@@ -23,7 +23,9 @@ What is utilcomps? utilcomps is a utilitarian modular component library written
 in Svelte, for Svelte. The idea is to provide a very functional set of common
 components that focus on being as utilitarian, accessible, and functional as
 possible, instead of being all too flashy. Inspiration for design comes from
-classic software programs like Cinema 4D, Blender 3D, and the Adobe Suite.
+classic software like [Cinema 4D](https://www.maxon.net/en/cinema-4d),
+[Blender](https://www.blender.org), and the [Adobe
+Suite](https://www.adobe.com).
 
 ## Usage
 
@@ -41,10 +43,7 @@ Set up Tailwind ([twind](https://twind.dev) for example) in a top level file
 
 ```javascript
 <script>
-  import { tailwindConfig } from 'utilcomps'
-  import { setup } from 'twind'
-
-  setup(tailwindConfig)
+	import {tailwindConfig} from 'utilcomps' import {setup} from 'twind' setup(tailwindConfig)
 </script>
 ```
 
