@@ -78,10 +78,6 @@ we highly recommend you use it as well.
 html {
   background-color: #323232;
 }
-
-body {
-  min-height: 100vh;
-}
 ```
 
 ## Usage
