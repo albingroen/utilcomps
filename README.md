@@ -15,7 +15,7 @@
 - [Title](#utility-components)
 - [About](#about)
 - [Installation](#installation)
-- [Tailwind configuration](#tailwind-configuration)
+- [Tailwind CSS configuration](#tailwind-css-configuration)
 - [Global styling](#global-styling)
 - [Usage](#usage)
 - [Components](#components)
@@ -38,17 +38,17 @@ JavaScript package manager.
 npm install utilcomps
 ```
 
-## Tailwind configuration
+## Tailwind CSS configuration
 
-TailwindCSS is the styling foundation for utilcomps. In order to get all
-correct styles, we provide a Tailwind configuration object, that you can use to
-configure your local version of TailwindCSS.
+Tailwind CSS is the styling foundation for utilcomps. In order to get all
+correct styles, we provide a Tailwind CSS configuration object, that you can use to
+configure your local version of Tailwind CSS.
 
 ```sh
 npm install twind
 ```
 
-Set up Tailwind ([twind](https://twind.dev) for example) in a top level file
+Set up Tailwind CSS ([twind](https://twind.dev) for example) in a top level file.
 
 ```svelte
 <script>
