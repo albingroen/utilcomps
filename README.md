@@ -31,7 +31,7 @@ and the [Adobe Suite](https://www.adobe.com).
 
 ## Installation
 
-Installaing utilcomps is very easy. Simple install it with your favorite
+Installing utilcomps is very easy. Simple install it with your favorite
 JavaScript package manager.
 
 ```sh
