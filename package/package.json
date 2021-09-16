@@ -1,11 +1,25 @@
 {
   "name": "utilcomps",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Utilitarian component library for Svelte",
   "license": "MIT",
-  "author": "albingroen",
+  "keywords": [
+    "svelte",
+    "components",
+    "library"
+  ],
+  "author": {
+    "email": "albin.groen@gmail.com",
+    "url": "https://albingroen.com",
+    "name": "Albin Groen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albingroen/utilcomps"
+  },
+  "homepage": "https://utilcomps.herokuapp.com",
   "devDependencies": {
-    "@sveltejs/adapter-vercel": "next",
+    "@sveltejs/adapter-node": "next",
     "@sveltejs/kit": "next",
     "@typescript-eslint/eslint-plugin": "^4.19.0",
     "@typescript-eslint/parser": "^4.19.0",
