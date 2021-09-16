@@ -3,7 +3,16 @@
 	"version": "1.0.6",
 	"description": "Utilitarian component library for Svelte",
 	"license": "MIT",
-	"author": "albingroen",
+	"keywords": [
+		"svelte",
+		"components",
+		"library"
+	],
+	"author": {
+		"email": "albin.groen@gmail.com",
+		"url": "https://albingroen.com",
+		"name": "Albin Groen"
+	},
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
@@ -15,6 +24,11 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
 		"start": "node build"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/albingroen/utilcomps"
+	},
+	"homepage": "https://utilcomps.herokuapp.com",
 	"devDependencies": {
 		"@sveltejs/adapter-node": "next",
 		"@sveltejs/kit": "next",
