@@ -51,11 +51,36 @@ Set up Tailwind ([twind](https://twind.dev) for example) in a top level file
 
 ```svelte
 <script>
-  import { tailwindConfig } from 'utilcomps'
-  import { setup } from 'twind'
-  
-  setup(tailwindConfig)
+	import { tailwindConfig } from 'utilcomps';
+	import { setup } from 'twind';
+
+	setup(tailwindConfig);
 </script>
+```
+
+## Global styling
+
+In order to get utilcomps's components to look as good, and work as good, as
+possible. We reommend adding a couple of lines of global styling. For example,
+we designed utilcomps with the [Inter font family](https://rsms.me/inter/), so
+we highly recommend you use it as well.
+
+```css
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #323232;
+}
+
+body {
+  min-height: 100vh;
+}
 ```
 
 ## Usage
@@ -66,7 +91,7 @@ other Svelte component.
 
 ```svelte
 <script>
-  import { Button } from 'utilcomps'
+	import { Button } from 'utilcomps';
 </script>
 
 <Button>Click me</Button>
