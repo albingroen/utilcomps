@@ -19,37 +19,50 @@
 
 ## About
 
-What is utilcomps? utilcomps is a utilitarian modular component library written
-in Svelte, for Svelte. The idea is to provide a very functional set of common
-components that focus on being as utilitarian, accessible, and functional as
-possible, instead of being all too flashy. Inspiration for design comes from
-classic software like [Cinema 4D](https://www.maxon.net/en/cinema-4d),
-[Blender](https://www.blender.org), and the [Adobe
-Suite](https://www.adobe.com).
+Utilcomps is a utilitarian component library written in Svelte, for Svelte. The
+idea is to provide a functional set of common components that focus on being
+utilitarian, accessible, and functional, instead of being all too flashy.
+Inspired by classic software like [Cinema
+4D](https://www.maxon.net/en/cinema-4d), [Blender](https://www.blender.org),
+and the [Adobe Suite](https://www.adobe.com).
 
 ## Usage
 
-### Install
+Utilcomps is to be used inside of Svelte. It can be used either with a bare
+Svelte project, or SvelteKit.
 
-Install using Yarn or NPM
+### Installation
 
-    yarn add utilcomps
+Install utilcomps is very easy. Simple install it with your favorite JavaScript
+package manager.
+
+    yarn add utilcomps # or npm install utilcomps
 
 ### Tailwind configuration
+
+TailwindCSS is the styling foundation for utilcomps. In order to get all
+correct styles, we provide a Tailwind configuration object, that you can use to
+configure your local version of TailwindCSS.
 
     yarn add twind
 
 Set up Tailwind ([twind](https://twind.dev) for example) in a top level file
 
-```javascript
+```
 <script>
-	import {tailwindConfig} from 'utilcomps' import {setup} from 'twind' setup(tailwindConfig)
+	import {tailwindConfig} from 'utilcomps'
+  import {setup} from 'twind'
+  setup(tailwindConfig)
 </script>
 ```
 
-Import in script tag and use in body
+### Using components
 
-```javascript
+Using utilcomps components is also very easy. Simple import a component of your
+choce from the utilcomps library inside of a script tag, and use it like any
+other Svelte component.
+
+```
 <script>
   import { Button } from 'utilcomps'
 </script>
@@ -58,5 +71,7 @@ Import in script tag and use in body
 ```
 
 ## Components
+
+To see a full demo of all components in utilcomps, visit the webiste below.
 
 [https://utilcomps.herokuapp.com](https://utilcomps.herokuapp.com)
