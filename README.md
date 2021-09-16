@@ -60,4 +60,4 @@ Import in script tag and use in body
 
 ## Components
 
-[https://utilcomps.vercel.app](https://utilcomps.vercel.app)
+[https://utilcomps.herokuapp.com](https://utilcomps.herokuapp.com)
