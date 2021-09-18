@@ -27,7 +27,7 @@
 		"type": "git",
 		"url": "https://github.com/albingroen/utilcomps"
 	},
-	"homepage": "https://utilcomps.herokuapp.com",
+	"homepage": "https://utilcomps.vercel.app",
 	"devDependencies": {
     "@sveltejs/adapter-vercel": "next",
 		"@sveltejs/kit": "next",

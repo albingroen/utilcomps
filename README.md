@@ -96,4 +96,4 @@ other Svelte component.
 
 To see a full demo of all components in utilcomps, visit the webiste below.
 
-[https://utilcomps.herokuapp.com](https://utilcomps.herokuapp.com)
+[https://utilcomps.vercel.app](https://utilcomps.vercel.app)
