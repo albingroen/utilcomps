@@ -59,7 +59,7 @@
 			</HoverCard>
 		</ComponentSection>
 
-		<ComponentSection header="ButttonGroup">
+		<ComponentSection header="Button">
 			<Stack spacing="small">
 				<Button>Default button</Button>
 				<Button color="primary">Primary button</Button>
