@@ -65,12 +65,12 @@
 
 		<ComponentSection header="Avatar">
 			<Stack align="end">
-				<Avatar size="large" src={placeholderAvatar} />
-				<Avatar size="large" shape="round" src={placeholderAvatar} />
-				<Avatar src={placeholderAvatar} />
-				<Avatar shape="round" src={placeholderAvatar} />
-				<Avatar size="small" src={placeholderAvatar} />
-				<Avatar size="small" shape="round" src={placeholderAvatar} />
+				<Avatar width="40px" size="large" src={placeholderAvatar} />
+				<Avatar width="40px" size="large" shape="round" src={placeholderAvatar} />
+				<Avatar width="40px" src={placeholderAvatar} />
+				<Avatar width="40px" shape="round" src={placeholderAvatar} />
+				<Avatar width="40px" size="small" src={placeholderAvatar} />
+				<Avatar width="40px" size="small" shape="round" src={placeholderAvatar} />
 			</Stack>
 		</ComponentSection>
 
