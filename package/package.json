@@ -1,6 +1,6 @@
 {
   "name": "utilcomps",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Utilitarian component library for Svelte",
   "license": "MIT",
   "keywords": [
@@ -49,6 +49,7 @@
     "./Content.svelte": "./Content.svelte",
     "./Divider.svelte": "./Divider.svelte",
     "./Error.svelte": "./Error.svelte",
+    "./HoverCard.svelte": "./HoverCard.svelte",
     "./Modal.svelte": "./Modal.svelte",
     "./Panel.svelte": "./Panel.svelte",
     "./PanelContent.svelte": "./PanelContent.svelte",
