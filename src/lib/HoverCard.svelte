@@ -18,6 +18,11 @@
 	style="max-width: max-content;"
 >
 	<div
+		on:click={() => {
+			if (hovering) {
+				hovering = false;
+			}
+		}}
 		on:mouseenter={() => {
 			if (!hovering) {
 				hovering = true;
