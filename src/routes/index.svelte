@@ -1,4 +1,4 @@
-<script context="module" lang="ts">
+<script lang="ts">
 	import ComponentSection from '../components/ComponentSection.svelte';
 	import {
 		Button,
@@ -24,8 +24,6 @@
 	} from '$lib/index';
 	import { setup, tw } from 'twind';
 	import HoverCardTrigger from '../components/HoverCardTrigger.svelte';
-
-	export const prerender = true;
 
 	setup(tailwindConfig);
 
