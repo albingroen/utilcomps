@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { tw } from 'twind';
+	import classNames from './classNames';
 
 	import Text from './Text.svelte';
 
@@ -14,11 +15,12 @@
 
 	export let columns: TableColumn[] = [];
 	export let rows: TableRow[] = [];
+	export let overflow = false;
 </script>
 
-<div class={tw('w-full h-full overflow-auto')}>
+<div class={tw(classNames('w-full h-full', overflow && 'overflow-auto'))}>
 	<table class={tw('w-full divide-y divide-[#494949]')}>
-		<thead class={tw('bg-scorpion-600')}>
+		<thead>
 			<tr class={tw('divide-x divide-[#494949]')}>
 				{#each columns as column}
 					<th scope="col" class={tw('px-3 py-2 text-left font-normal tracking-wide')}>
@@ -30,7 +32,7 @@
 
 		<tbody class={tw('divide-y divide-[#494949]')}>
 			{#each rows as row}
-				<tr class={tw('bg-scorpion-600 divide-x divide-[#494949]')}>
+				<tr class={tw('divide-x divide-[#494949]')}>
 					{#each columns as column}
 						<td class={tw('px-3 py-2 whitespace-nowrap text-sm text-gray-200 font-normal')}>
 							{#if column.component}
