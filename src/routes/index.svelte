@@ -5,23 +5,24 @@
 		ButtonGroup,
 		Checkbox,
 		Content,
+		Divider,
 		Error,
+		Modal,
+		Panel,
+		PanelContent,
 		Select,
 		Spinner,
 		Stack,
+		Tab,
+		Table,
+		Tabs,
 		Text,
 		TextInput,
 		tailwindConfig,
-		Divider,
-		Panel,
-		PanelContent,
-		Table,
-		Modal,
-		Tabs,
-		Tab
+		Avatar,
+		HoverCard
 	} from '$lib/index';
 	import { setup, tw } from 'twind';
-	import HoverCard from '$lib/HoverCard.svelte';
 	import HoverCardTrigger from '../components/HoverCardTrigger.svelte';
 
 	setup(tailwindConfig);
@@ -30,6 +31,9 @@
 	let checkboxValue = false;
 	let modalOpen = false;
 	let activeTab = '1';
+
+	const placeholderAvatar =
+		'https://images.unsplash.com/photo-1506085452766-c330853bea50?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=3e378252a934e660f231666b51bd269a';
 </script>
 
 <svelte:head>
@@ -57,6 +61,17 @@
 					</PanelContent>
 				</Panel>
 			</HoverCard>
+		</ComponentSection>
+
+		<ComponentSection header="Avatar">
+			<Stack align="end">
+				<Avatar size="large" src={placeholderAvatar} />
+				<Avatar size="large" shape="round" src={placeholderAvatar} />
+				<Avatar src={placeholderAvatar} />
+				<Avatar shape="round" src={placeholderAvatar} />
+				<Avatar size="small" src={placeholderAvatar} />
+				<Avatar size="small" shape="round" src={placeholderAvatar} />
+			</Stack>
 		</ComponentSection>
 
 		<ComponentSection header="Button">

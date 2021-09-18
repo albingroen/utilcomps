@@ -41,3 +41,5 @@ export { default as Table } from './Table.svelte';
 export { default as Tabs } from './Tabs.svelte';
 export { default as Text } from './Text.svelte';
 export { default as TextInput } from './TextInput.svelte';
+export { default as HoverCard } from './HoverCard.svelte';
+export { default as Avatar } from './Avatar.svelte';
