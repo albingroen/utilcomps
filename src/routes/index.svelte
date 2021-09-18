@@ -21,6 +21,8 @@
 		Tab
 	} from '$lib/index';
 	import { setup, tw } from 'twind';
+	import HoverCard from '$lib/HoverCard.svelte';
+	import HoverCardTrigger from '../components/HoverCardTrigger.svelte';
 
 	setup(tailwindConfig);
 
@@ -45,6 +47,16 @@
 				<Text level="h5">The quick brown fox jumps over the lazy dog</Text>
 				<Text>The quick brown fox jumps over the lazy dog</Text>
 			</Stack>
+		</ComponentSection>
+
+		<ComponentSection header="HoverCard">
+			<HoverCard trigger={HoverCardTrigger}>
+				<Panel rounded>
+					<PanelContent>
+						<Button color="primary">Follow user</Button>
+					</PanelContent>
+				</Panel>
+			</HoverCard>
 		</ComponentSection>
 
 		<ComponentSection header="ButttonGroup">
