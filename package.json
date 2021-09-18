@@ -1,6 +1,6 @@
 {
 	"name": "utilcomps",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Utilitarian component library for Svelte",
 	"license": "MIT",
 	"keywords": [
