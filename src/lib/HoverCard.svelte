@@ -34,7 +34,7 @@
 
 	{#if hovering}
 		<div
-			transition:fade={{ duration: 75, delay: 500 }}
+			transition:fade={{ duration: 75, delay: 750 }}
 			class={tw(
 				classNames(
 					'absolute w-96 z-10 transform',
