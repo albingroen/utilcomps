@@ -1,6 +1,6 @@
 {
 	"name": "utilcomps",
-	"version": "1.1.6",
+	"version": "1.1.7",
 	"description": "Utilitarian component library for Svelte",
 	"license": "MIT",
 	"keywords": [
@@ -29,7 +29,7 @@
 	},
 	"homepage": "https://utilcomps.vercel.app",
 	"devDependencies": {
-    "@sveltejs/adapter-vercel": "next",
+		"@sveltejs/adapter-vercel": "next",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^4.19.0",
 		"@typescript-eslint/parser": "^4.19.0",
