@@ -31,7 +31,7 @@
 		</thead>
 
 		<tbody class={tw('divide-y divide-[#494949]')}>
-			{#each rows as row}
+			{#each rows as row (row.id)}
 				<tr class={tw('divide-x divide-[#494949]')}>
 					{#each columns as column}
 						<td class={tw('px-3 py-2 whitespace-nowrap text-sm text-gray-200 font-normal')}>
