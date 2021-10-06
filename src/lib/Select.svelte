@@ -10,7 +10,7 @@
 		label: string;
 	}
 
-	export let handleChange: (value: string) => void = undefined;
+	export let handleChange: (value: any) => void = undefined;
 	export let placeholder: string = undefined;
 	export let options: SelectOption[] = [];
 	export let disabled: boolean = false;

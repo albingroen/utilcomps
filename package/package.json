@@ -65,5 +65,6 @@
     "./classNames": "./classNames.js",
     ".": "./index.js",
     "./utils": "./utils.js"
-  }
+  },
+  "svelte": "./index.js"
 }
