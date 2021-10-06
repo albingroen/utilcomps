@@ -6,8 +6,8 @@
 	import { tw } from 'twind';
 
 	interface SelectOption {
-		value: string;
 		label: string;
+		value: any;
 	}
 
 	export let handleChange: (value: any) => void = undefined;
