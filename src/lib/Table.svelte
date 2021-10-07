@@ -7,7 +7,7 @@
 	interface TableColumn {
 		render?: (row: any) => any;
 		dataIndex?: string;
-		header: string;
+		header?: string;
 		component?: any;
 	}
 
